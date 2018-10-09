@@ -20,18 +20,15 @@ inquirer.prompt([{
     .then(answers => {
         switch (answers.actionItem) {
             case "concert-this":
-                console.log("goin to a concert!");
                 bandsInTown();
                 break;
             case "spotify-this-song":
                 spotifySong();
                 break;
             case "movie-this":
-                console.log("movies");
                 movieTime();
                 break;
             case "do-what-it-says":
-                console.log("do what it says");
                 readingRandom();
         }
     })
@@ -41,7 +38,7 @@ function bandsInTown() {
         .prompt([{
             type: "input",
             name: "band name",
-            message: "who do you want to see?"
+            message: "Which Band"
         }])
         .then(function (artist) {
             var arTist = artist["band name"];
