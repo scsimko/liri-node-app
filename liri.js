@@ -96,7 +96,7 @@ function spotifySearch(trackName) {
                     console.log("Preview URL: ", trackInfo[7].preview_url)
                     console.log("Album: ", trackInfo[7].album.name)
                 } else {
-                    for (i = 0; i < 20; i++) {
+                    for (i = 0; i < 5; i++) {
                         var spotifyResults =
                             "Artist: " + trackInfo[i].artists[0].name + "\n" +
                             "Song: " + trackInfo[i].name + "\n" +
