@@ -7,13 +7,13 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 To Use LIRI, you would need to clone this repository and enter a Spotify API Key. Your Spotify API Key must be entered in a file named: .evn and read like the:
 
 ![Spotify](/spot.png)
-Format: ![](url)
+
 
 
 Once this is complete, you can access the file by typing: node liri.js in the command line of your terminal. 
 
 ![Spotify](/com.png)
-Format: ![](url)
+
 
 
 After you make your selection. You will be asked to enter “What Band?”, “Which Song?”, or “Which Movie?”. Once you input your data in the command line Liri will provide you results from the following sites:
