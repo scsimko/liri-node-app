@@ -6,7 +6,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 To Use LIRI, you would need to clone this repository and enter a Spotify API Key. Your Spotify API Key must be entered in a file named: .evn and read like the:
 
-![Spotify](/spot.png)
+![Spotify](/spot.png)| width=100)
 
 
 
