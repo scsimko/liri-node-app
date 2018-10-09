@@ -17,9 +17,13 @@ Once this is complete, you can access the file by typing: node liri.js in the co
 The next prompt will have you select what you would like to do:
 
 ? actionItem: (Use arrow keys)
+
 ❯ concert-this
+
   spotify-this-song
+
   movie-this
+  
   do-what-it-says
 
 
