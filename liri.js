@@ -35,7 +35,7 @@ inquirer.prompt([{
                 readingRandom();
         }
     })
-
+///Bands in Town function
 function bandsInTown() {
     inquirer
         .prompt([{
@@ -61,10 +61,8 @@ function bandsInTown() {
         })
 }
 
-
-
+///Spotify Function
 function spotifySong(randomTrack) {
-
     if (!randomTrack) {
         inquirer.prompt([{
                 type: "input",
@@ -119,6 +117,7 @@ function spotifySearch(trackName) {
     )
 }
 
+//Omdb function
 function movieTime() {
 
     inquirer.prompt([{
@@ -150,14 +149,12 @@ function movieTime() {
 }
 
 
-
+///Do what it say functino
 function readingRandom() {
     fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
             console.log(error);
         }
-
-
         var array = data.split(",");
         var trackName = array[1];
         console.log(trackName)
