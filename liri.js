@@ -102,9 +102,7 @@ function spotifySearch(trackName) {
                             "Song: " + trackInfo[i].name + "\n" +
                             "Preview URL: " + trackInfo[i].preview_url + "\n" +
                             "Album: " + trackInfo[i].album.name + "\n"
-
                         console.log(spotifyResults);
-                        console.log(" ");
                     }
 
                 }
